@@ -19,3 +19,50 @@ main{
     margin-bottom: 20px;
     font-size: 0.7rem;
 }
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    text-align: center;
+    font-size: 0.6rem;
+    margin: 10px;
+
+}
+#number{
+    padding: 2px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+#number:focus{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+#submit-btn{
+    width: 20%;
+    margin: 0 auto 10px;
+    color: #FFF;
+    background-color: blue;
+    border: 1px solid rgba(0, 0, 0, .3);
+    padding: 3px;
+    border-radius: 3px;
+}
+#number:focus + #submit-btn{
+    background-color: #4949e6;
+}
+.guess-section{
+    text-align: center;
+    font-size: 0.6rem;
+}
+table,tr,td{
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    
+}
+
+
+
+
+    
